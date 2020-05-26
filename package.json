@@ -7,12 +7,14 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "clean": "rm -rf node_modules ios/Pods",
+    "setup:ios": "cd ios && bundle exec pod install"
   },
   "dependencies": {
     "react": "16.9.0",
     "react-native": "0.61.5",
-    "realm": "github:realm/realm-js#v10.0.0-alpha.5"
+    "realm": "10.0.0-alpha.9"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",

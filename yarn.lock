@@ -5667,9 +5667,10 @@ readable-stream@^2.0.1, readable-stream@^2.0.6, readable-stream@^2.2.2, readable
     string_decoder "~1.1.1"
     util-deprecate "~1.0.1"
 
-"realm@github:realm/realm-js#v10.0.0-alpha.5":
-  version "10.0.0-alpha.5"
-  resolved "https://codeload.github.com/realm/realm-js/tar.gz/6f2112bc9bcbd25188ac2f21682476128d92f2d8"
+realm@10.0.0-alpha.9:
+  version "10.0.0-alpha.9"
+  resolved "https://registry.yarnpkg.com/realm/-/realm-10.0.0-alpha.9.tgz#48a9b43a92e3213725ae3757aa122d0d2882c584"
+  integrity sha512-mg27c58ORpt6iYpue812Tu1WJsN34cp31gixEbSrPOGhUrn1kFuhI4W9ITJnRhiVbKoJ829H00qzgVLVMRP9Kg==
   dependencies:
     abort-controller "^3.0.0"
     bson "^4.0.3"
